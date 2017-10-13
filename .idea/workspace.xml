@@ -1,0 +1,1181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e134a6bc-54c4-45f3-8c98-4ded0f82604e" name="Default" comment="renamed populate.sql to population.sql - added population.sql to repo" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/minitwit/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="minitwit.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/minitwit/minitwit.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="315" column="21" lean-forward="false" selection-start-line="315" selection-start-column="21" selection-end-line="315" selection-end-column="21" />
+              <folding>
+                <element signature="e#218#229#0" expanded="true" />
+                <marker date="1507886861000" expanded="true" signature="2861:2904" ph="select user_... user" />
+                <marker date="1507886861000" expanded="true" signature="3495:3531" ph="select * fro... user" />
+                <marker date="1507886861000" expanded="true" signature="3832:4100" ph="select messa... message" />
+                <marker date="1507886861000" expanded="true" signature="4002:4047" ph="select whom_... follower" />
+                <marker date="1507886861000" expanded="true" signature="4220:4361" ph="select messa... message" />
+                <marker date="1507886861000" expanded="true" signature="4435:4472" ph="select * fro... user" />
+                <marker date="1507886861000" expanded="true" signature="4589:4678" ph="select 1 fro... follower" />
+                <marker date="1507886861000" expanded="true" signature="4845:5019" ph="select messa... message" />
+                <marker date="1507886861000" expanded="true" signature="5142:5194" ph="insert into follower... " />
+                <marker date="1507886861000" expanded="true" signature="5327:5376" ph="delete from " />
+                <marker date="1507886861000" expanded="true" signature="5514:5588" ph="insert into message... " />
+                <marker date="1507886861000" expanded="true" signature="5736:5785" ph="select * fro... user" />
+                <marker date="1507886861000" expanded="true" signature="8009:8014" ph="..." />
+                <marker date="1507886861000" expanded="true" signature="11199:11236" ph="select * fro... user" />
+                <marker date="1507886861000" expanded="true" signature="14338:14413" ph="insert into user... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="session_store01.cfg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sessions/session_store01.cfg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="session_store02.cfg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sessions/session_store02.cfg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="session_store03.cfg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sessions/session_store03.cfg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setup.cfg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/setup.cfg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="population.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/minitwit/population.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_minitwit.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/test_minitwit.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1410">
+              <caret line="98" column="4" lean-forward="false" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="4" />
+              <folding>
+                <element signature="e#201#210#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/tests/test_minitwit.py" />
+        <option value="$PROJECT_DIR$/sessions/session_store01.cfg" />
+        <option value="$PROJECT_DIR$/sessions/session_store02.cfg" />
+        <option value="$PROJECT_DIR$/sessions/session_store03.cfg" />
+        <option value="$PROJECT_DIR$/minitwit/minitwit.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="44" />
+    <option name="y" value="23" />
+    <option name="width" value="1388" />
+    <option name="height" value="837" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="minitwit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="minitwit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="minitwit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="minitwit" type="462c0819:PsiDirectoryNode" />
+              <item name="minitwit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="minitwit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="minitwit" type="462c0819:PsiDirectoryNode" />
+              <item name="sessions" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="minitwit" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="minitwit" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="minitwit" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="minitwit" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="minitwit" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="minitwit" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="minitwit" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="minitwit" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="minitwit" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="minitwit" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e134a6bc-54c4-45f3-8c98-4ded0f82604e" name="Default" comment="" />
+      <created>1505427402005</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1505427402005</updated>
+    </task>
+    <task id="LOCAL-00001" summary="starting to go.....">
+      <created>1505452647566</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1505452647566</updated>
+    </task>
+    <task id="LOCAL-00002" summary="starting to go.....">
+      <created>1505458958997</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1505458958997</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added the 'populate_db' cli command and the associated populate_db&#10;function.  created some corresponding sql to populate db with users and &#10;tweets. finished a couple additional API functions.">
+      <created>1505500846153</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1505500846153</updated>
+    </task>
+    <task id="LOCAL-00004" summary="modified the database setting to create db file in /tmp to eliminate &#10;conflicts between contributors.">
+      <created>1505500911097</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1505500911097</updated>
+    </task>
+    <task id="LOCAL-00005" summary="removed erroneous message used to retrieve good initial values for sql">
+      <created>1505500978883</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1505500978883</updated>
+    </task>
+    <task id="LOCAL-00006" summary="removed erroneous message used to retrieve good initial values for sql">
+      <created>1505501844544</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1505501844544</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added the login function...">
+      <created>1505800724619</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1505800724619</updated>
+    </task>
+    <task id="LOCAL-00008" summary="modified login function to use GET, with URL parameters">
+      <created>1505978148954</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1505978148954</updated>
+    </task>
+    <task id="LOCAL-00009" summary="DRY - refactored code to use query functions">
+      <created>1505986079563</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1505986079563</updated>
+    </task>
+    <task id="LOCAL-00010" summary="DRY - fixed an issue with follow / unfollow">
+      <created>1505986719776</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1505986719776</updated>
+    </task>
+    <task id="LOCAL-00011" summary="DRY - stopping for the night... what to do with API user timeline TODO?">
+      <created>1505987339003</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1505987339003</updated>
+    </task>
+    <task id="LOCAL-00012" summary="DRY - changed 'username' to 'user_id' in functions that used a user_id">
+      <created>1505987848495</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1505987848495</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added unit tests...">
+      <created>1506018002261</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1506018002261</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added unit tests...">
+      <created>1506018248423</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1506018248423</updated>
+    </task>
+    <task id="LOCAL-00015" summary="differentiate between user_id and username">
+      <created>1506020350059</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1506020350059</updated>
+    </task>
+    <task id="LOCAL-00016" summary="renamed populate.sql to population.sql">
+      <created>1506020935572</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1506020935572</updated>
+    </task>
+    <task id="LOCAL-00017" summary="renamed populate.sql to population.sql - added population.sql to repo">
+      <created>1506545500216</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1506545500216</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="44" y="23" width="1388" height="837" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2830609" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46361187" sideWeight="0.5178306" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.49702823" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962853" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7641509" sideWeight="0.4821694" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="starting to go....." />
+    <MESSAGE value="added the 'populate_db' cli command and the associated populate_db&#10;function.  created some corresponding sql to populate db with users and &#10;tweets. finished a couple additional API functions." />
+    <MESSAGE value="modified the database setting to create db file in /tmp to eliminate &#10;conflicts between contributors." />
+    <MESSAGE value="removed erroneous message used to retrieve good initial values for sql" />
+    <MESSAGE value="added the login function..." />
+    <MESSAGE value="modified login function to use GET, with URL parameters" />
+    <MESSAGE value="DRY - refactored code to use query functions" />
+    <MESSAGE value="DRY - fixed an issue with follow / unfollow" />
+    <MESSAGE value="DRY - stopping for the night... what to do with API user timeline TODO?" />
+    <MESSAGE value="DRY - changed 'username' to 'user_id' in functions that used a user_id" />
+    <MESSAGE value="Added unit tests..." />
+    <MESSAGE value="differentiate between user_id and username" />
+    <MESSAGE value="renamed populate.sql to population.sql" />
+    <MESSAGE value="renamed populate.sql to population.sql - added population.sql to repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="renamed populate.sql to population.sql - added population.sql to repo" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minitwit/minitwit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#218#229#0" expanded="true" />
+            <marker date="1507886861000" expanded="true" signature="2861:2904" ph="select user_... user" />
+            <marker date="1507886861000" expanded="true" signature="3495:3531" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="3832:4100" ph="select messa... message" />
+            <marker date="1507886861000" expanded="true" signature="4002:4047" ph="select whom_... follower" />
+            <marker date="1507886861000" expanded="true" signature="4220:4361" ph="select messa... message" />
+            <marker date="1507886861000" expanded="true" signature="4435:4472" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="4589:4678" ph="select 1 fro... follower" />
+            <marker date="1507886861000" expanded="true" signature="4845:5019" ph="select messa... message" />
+            <marker date="1507886861000" expanded="true" signature="5142:5194" ph="insert into follower... " />
+            <marker date="1507886861000" expanded="true" signature="5327:5376" ph="delete from " />
+            <marker date="1507886861000" expanded="true" signature="5514:5588" ph="insert into message... " />
+            <marker date="1507886861000" expanded="true" signature="5736:5785" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="8009:8014" ph="..." />
+            <marker date="1507886861000" expanded="true" signature="11199:11236" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="14338:14413" ph="insert into user... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_minitwit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1410">
+          <caret line="98" column="4" lean-forward="false" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="4" />
+          <folding>
+            <element signature="e#201#210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minitwit/population.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_minitwit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3585">
+          <caret line="243" column="31" lean-forward="false" selection-start-line="243" selection-start-column="31" selection-end-line="243" selection-end-column="31" />
+          <folding>
+            <element signature="e#201#210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minitwit/minitwit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="76" column="37" lean-forward="false" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="37" />
+          <folding>
+            <element signature="e#218#229#0" expanded="true" />
+            <marker date="1507886861000" expanded="true" signature="2861:2904" ph="select user_... user" />
+            <marker date="1507886861000" expanded="true" signature="3495:3531" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="3832:4100" ph="select messa... message" />
+            <marker date="1507886861000" expanded="true" signature="4002:4047" ph="select whom_... follower" />
+            <marker date="1507886861000" expanded="true" signature="4220:4361" ph="select messa... message" />
+            <marker date="1507886861000" expanded="true" signature="4435:4472" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="4589:4678" ph="select 1 fro... follower" />
+            <marker date="1507886861000" expanded="true" signature="4845:5019" ph="select messa... message" />
+            <marker date="1507886861000" expanded="true" signature="5142:5194" ph="insert into follower... " />
+            <marker date="1507886861000" expanded="true" signature="5327:5376" ph="delete from " />
+            <marker date="1507886861000" expanded="true" signature="5514:5588" ph="insert into message... " />
+            <marker date="1507886861000" expanded="true" signature="5736:5785" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="8009:8014" ph="..." />
+            <marker date="1507886861000" expanded="true" signature="11199:11236" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="14338:14413" ph="insert into user... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_minitwit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3585">
+          <caret line="243" column="31" lean-forward="false" selection-start-line="243" selection-start-column="31" selection-end-line="243" selection-end-column="31" />
+          <folding>
+            <element signature="e#201#210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minitwit/minitwit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="76" column="37" lean-forward="false" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="37" />
+          <folding>
+            <element signature="e#218#229#0" expanded="true" />
+            <marker date="1507886861000" expanded="true" signature="2861:2904" ph="select user_... user" />
+            <marker date="1507886861000" expanded="true" signature="3495:3531" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="3832:4100" ph="select messa... message" />
+            <marker date="1507886861000" expanded="true" signature="4002:4047" ph="select whom_... follower" />
+            <marker date="1507886861000" expanded="true" signature="4220:4361" ph="select messa... message" />
+            <marker date="1507886861000" expanded="true" signature="4435:4472" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="4589:4678" ph="select 1 fro... follower" />
+            <marker date="1507886861000" expanded="true" signature="4845:5019" ph="select messa... message" />
+            <marker date="1507886861000" expanded="true" signature="5142:5194" ph="insert into follower... " />
+            <marker date="1507886861000" expanded="true" signature="5327:5376" ph="delete from " />
+            <marker date="1507886861000" expanded="true" signature="5514:5588" ph="insert into message... " />
+            <marker date="1507886861000" expanded="true" signature="5736:5785" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="8009:8014" ph="..." />
+            <marker date="1507886861000" expanded="true" signature="11199:11236" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="14338:14413" ph="insert into user... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minitwit/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minitwit/templates/timeline.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minitwit/minitwit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <element signature="e#218#229#0" expanded="true" />
+            <marker date="1507886861000" expanded="true" signature="2861:2904" ph="select user_... user" />
+            <marker date="1507886861000" expanded="true" signature="3495:3531" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="3832:4100" ph="select messa... message" />
+            <marker date="1507886861000" expanded="true" signature="4002:4047" ph="select whom_... follower" />
+            <marker date="1507886861000" expanded="true" signature="4220:4361" ph="select messa... message" />
+            <marker date="1507886861000" expanded="true" signature="4435:4472" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="4589:4678" ph="select 1 fro... follower" />
+            <marker date="1507886861000" expanded="true" signature="4845:5019" ph="select messa... message" />
+            <marker date="1507886861000" expanded="true" signature="5142:5194" ph="insert into follower... " />
+            <marker date="1507886861000" expanded="true" signature="5327:5376" ph="delete from " />
+            <marker date="1507886861000" expanded="true" signature="5514:5588" ph="insert into message... " />
+            <marker date="1507886861000" expanded="true" signature="5736:5785" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="8009:8014" ph="..." />
+            <marker date="1507886861000" expanded="true" signature="11199:11236" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="14338:14413" ph="insert into user... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minitwit/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minitwit/templates/timeline.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minitwit/minitwit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <element signature="e#218#229#0" expanded="true" />
+            <marker date="1507886861000" expanded="true" signature="2861:2904" ph="select user_... user" />
+            <marker date="1507886861000" expanded="true" signature="3495:3531" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="3832:4100" ph="select messa... message" />
+            <marker date="1507886861000" expanded="true" signature="4002:4047" ph="select whom_... follower" />
+            <marker date="1507886861000" expanded="true" signature="4220:4361" ph="select messa... message" />
+            <marker date="1507886861000" expanded="true" signature="4435:4472" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="4589:4678" ph="select 1 fro... follower" />
+            <marker date="1507886861000" expanded="true" signature="4845:5019" ph="select messa... message" />
+            <marker date="1507886861000" expanded="true" signature="5142:5194" ph="insert into follower... " />
+            <marker date="1507886861000" expanded="true" signature="5327:5376" ph="delete from " />
+            <marker date="1507886861000" expanded="true" signature="5514:5588" ph="insert into message... " />
+            <marker date="1507886861000" expanded="true" signature="5736:5785" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="8009:8014" ph="..." />
+            <marker date="1507886861000" expanded="true" signature="11199:11236" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="14338:14413" ph="insert into user... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minitwit/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minitwit/templates/timeline.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minitwit/minitwit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <element signature="e#218#229#0" expanded="true" />
+            <marker date="1507886861000" expanded="true" signature="2861:2904" ph="select user_... user" />
+            <marker date="1507886861000" expanded="true" signature="3495:3531" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="3832:4100" ph="select messa... message" />
+            <marker date="1507886861000" expanded="true" signature="4002:4047" ph="select whom_... follower" />
+            <marker date="1507886861000" expanded="true" signature="4220:4361" ph="select messa... message" />
+            <marker date="1507886861000" expanded="true" signature="4435:4472" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="4589:4678" ph="select 1 fro... follower" />
+            <marker date="1507886861000" expanded="true" signature="4845:5019" ph="select messa... message" />
+            <marker date="1507886861000" expanded="true" signature="5142:5194" ph="insert into follower... " />
+            <marker date="1507886861000" expanded="true" signature="5327:5376" ph="delete from " />
+            <marker date="1507886861000" expanded="true" signature="5514:5588" ph="insert into message... " />
+            <marker date="1507886861000" expanded="true" signature="5736:5785" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="8009:8014" ph="..." />
+            <marker date="1507886861000" expanded="true" signature="11199:11236" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="14338:14413" ph="insert into user... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minitwit/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minitwit/templates/timeline.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minitwit/minitwit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <element signature="e#218#229#0" expanded="true" />
+            <marker date="1507886861000" expanded="true" signature="2861:2904" ph="select user_... user" />
+            <marker date="1507886861000" expanded="true" signature="3495:3531" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="3832:4100" ph="select messa... message" />
+            <marker date="1507886861000" expanded="true" signature="4002:4047" ph="select whom_... follower" />
+            <marker date="1507886861000" expanded="true" signature="4220:4361" ph="select messa... message" />
+            <marker date="1507886861000" expanded="true" signature="4435:4472" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="4589:4678" ph="select 1 fro... follower" />
+            <marker date="1507886861000" expanded="true" signature="4845:5019" ph="select messa... message" />
+            <marker date="1507886861000" expanded="true" signature="5142:5194" ph="insert into follower... " />
+            <marker date="1507886861000" expanded="true" signature="5327:5376" ph="delete from " />
+            <marker date="1507886861000" expanded="true" signature="5514:5588" ph="insert into message... " />
+            <marker date="1507886861000" expanded="true" signature="5736:5785" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="8009:8014" ph="..." />
+            <marker date="1507886861000" expanded="true" signature="11199:11236" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="14338:14413" ph="insert into user... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minitwit/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minitwit/templates/timeline.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minitwit/minitwit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2310">
+          <caret line="160" column="0" lean-forward="false" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+          <folding>
+            <element signature="e#218#229#0" expanded="true" />
+            <marker date="1507886861000" expanded="true" signature="2861:2904" ph="select user_... user" />
+            <marker date="1507886861000" expanded="true" signature="3495:3531" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="3832:4100" ph="select messa... message" />
+            <marker date="1507886861000" expanded="true" signature="4002:4047" ph="select whom_... follower" />
+            <marker date="1507886861000" expanded="true" signature="4220:4361" ph="select messa... message" />
+            <marker date="1507886861000" expanded="true" signature="4435:4472" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="4589:4678" ph="select 1 fro... follower" />
+            <marker date="1507886861000" expanded="true" signature="4845:5019" ph="select messa... message" />
+            <marker date="1507886861000" expanded="true" signature="5142:5194" ph="insert into follower... " />
+            <marker date="1507886861000" expanded="true" signature="5327:5376" ph="delete from " />
+            <marker date="1507886861000" expanded="true" signature="5514:5588" ph="insert into message... " />
+            <marker date="1507886861000" expanded="true" signature="5736:5785" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="8009:8014" ph="..." />
+            <marker date="1507886861000" expanded="true" signature="11199:11236" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="14338:14413" ph="insert into user... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minitwit/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minitwit/templates/timeline.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minitwit/minitwit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="160" column="0" lean-forward="false" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+          <folding>
+            <element signature="e#218#229#0" expanded="true" />
+            <marker date="1507886861000" expanded="true" signature="2861:2904" ph="select user_... user" />
+            <marker date="1507886861000" expanded="true" signature="3495:3531" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="3832:4100" ph="select messa... message" />
+            <marker date="1507886861000" expanded="true" signature="4002:4047" ph="select whom_... follower" />
+            <marker date="1507886861000" expanded="true" signature="4220:4361" ph="select messa... message" />
+            <marker date="1507886861000" expanded="true" signature="4435:4472" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="4589:4678" ph="select 1 fro... follower" />
+            <marker date="1507886861000" expanded="true" signature="4845:5019" ph="select messa... message" />
+            <marker date="1507886861000" expanded="true" signature="5142:5194" ph="insert into follower... " />
+            <marker date="1507886861000" expanded="true" signature="5327:5376" ph="delete from " />
+            <marker date="1507886861000" expanded="true" signature="5514:5588" ph="insert into message... " />
+            <marker date="1507886861000" expanded="true" signature="5736:5785" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="8009:8014" ph="..." />
+            <marker date="1507886861000" expanded="true" signature="11199:11236" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="14338:14413" ph="insert into user... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minitwit/minitwit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="160" column="0" lean-forward="false" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+          <folding>
+            <element signature="e#218#229#0" expanded="true" />
+            <marker date="1507886861000" expanded="true" signature="2861:2904" ph="select user_... user" />
+            <marker date="1507886861000" expanded="true" signature="3495:3531" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="3832:4100" ph="select messa... message" />
+            <marker date="1507886861000" expanded="true" signature="4002:4047" ph="select whom_... follower" />
+            <marker date="1507886861000" expanded="true" signature="4220:4361" ph="select messa... message" />
+            <marker date="1507886861000" expanded="true" signature="4435:4472" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="4589:4678" ph="select 1 fro... follower" />
+            <marker date="1507886861000" expanded="true" signature="4845:5019" ph="select messa... message" />
+            <marker date="1507886861000" expanded="true" signature="5142:5194" ph="insert into follower... " />
+            <marker date="1507886861000" expanded="true" signature="5327:5376" ph="delete from " />
+            <marker date="1507886861000" expanded="true" signature="5514:5588" ph="insert into message... " />
+            <marker date="1507886861000" expanded="true" signature="5736:5785" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="8009:8014" ph="..." />
+            <marker date="1507886861000" expanded="true" signature="11199:11236" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="14338:14413" ph="insert into user... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minitwit/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minitwit/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minitwit/templates/timeline.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="31" column="50" lean-forward="false" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_minitwit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1410">
+          <caret line="98" column="4" lean-forward="false" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="4" />
+          <folding>
+            <element signature="e#201#210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minitwit/population.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minitwit/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sessions/session_store01.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sessions/session_store02.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sessions/session_store03.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minitwit/minitwit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="315" column="21" lean-forward="false" selection-start-line="315" selection-start-column="21" selection-end-line="315" selection-end-column="21" />
+          <folding>
+            <element signature="e#218#229#0" expanded="true" />
+            <marker date="1507886861000" expanded="true" signature="2861:2904" ph="select user_... user" />
+            <marker date="1507886861000" expanded="true" signature="3495:3531" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="3832:4100" ph="select messa... message" />
+            <marker date="1507886861000" expanded="true" signature="4002:4047" ph="select whom_... follower" />
+            <marker date="1507886861000" expanded="true" signature="4220:4361" ph="select messa... message" />
+            <marker date="1507886861000" expanded="true" signature="4435:4472" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="4589:4678" ph="select 1 fro... follower" />
+            <marker date="1507886861000" expanded="true" signature="4845:5019" ph="select messa... message" />
+            <marker date="1507886861000" expanded="true" signature="5142:5194" ph="insert into follower... " />
+            <marker date="1507886861000" expanded="true" signature="5327:5376" ph="delete from " />
+            <marker date="1507886861000" expanded="true" signature="5514:5588" ph="insert into message... " />
+            <marker date="1507886861000" expanded="true" signature="5736:5785" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="8009:8014" ph="..." />
+            <marker date="1507886861000" expanded="true" signature="11199:11236" ph="select * fro... user" />
+            <marker date="1507886861000" expanded="true" signature="14338:14413" ph="insert into user... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
