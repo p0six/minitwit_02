@@ -14,10 +14,9 @@ from sqlite3 import dbapi2 as sqlite3
 from hashlib import md5
 from datetime import datetime
 from flask import Flask, request, session, url_for, redirect, \
-     render_template, abort, g, flash, _app_ctx_stack, json, jsonify, Response
+    render_template, abort, g, flash, _app_ctx_stack, json, jsonify, Response
 from werkzeug import check_password_hash, generate_password_hash
 from flask_sessionstore import Session
-
 
 # configuration
 DATABASE = '/tmp/minitwit.db'
@@ -29,6 +28,7 @@ SECRET_KEY = b'_5#y2L"F4Q8z\n\xec]/'
 app = Flask('minitwit')
 app.config.from_object(__name__)
 app.config.from_envvar('MINITWIT_SETTINGS', silent=True)
+Session(app)
 
 
 def get_db():
@@ -116,7 +116,7 @@ def format_datetime(timestamp):
 def gravatar_url(email, size=80):
     """Return the gravatar image for the given email address."""
     return 'https://www.gravatar.com/avatar/%s?d=identicon&s=%d' % \
-        (md5(email.strip().lower().encode('utf-8')).hexdigest(), size)
+           (md5(email.strip().lower().encode('utf-8')).hexdigest(), size)
 
 
 @app.before_request
@@ -142,7 +142,7 @@ def query_home_timeline(user_id):
                 user.user_id = ? or
                 user.user_id in (select whom_id from follower where who_id = ?))
             order by message.pub_date desc limit ?''',
-                        [user_id, user_id, PER_PAGE])
+                    [user_id, user_id, PER_PAGE])
 
 
 def query_public_timeline():
@@ -174,22 +174,22 @@ def query_messages(user_id):
 
 def query_follow_user(user_id, whom_id):
     db = get_db()
-    db.execute('insert into follower (who_id, whom_id) values (?, ?)',
+    db.execute('INSERT INTO follower (who_id, whom_id) VALUES (?, ?)',
                [user_id, whom_id])
     db.commit()
 
 
 def query_unfollow_user(user_id, whom_id):
     db = get_db()
-    db.execute('delete from follower where who_id=? and whom_id=?',
+    db.execute('DELETE FROM follower WHERE who_id=? AND whom_id=?',
                [user_id, whom_id])
     db.commit()
 
 
 def query_add_message(user_id, message_text):
     db = get_db()
-    db.execute('''insert into message (author_id, text, pub_date)
-          values (?, ?, ?)''', (user_id, message_text,
+    db.execute('''INSERT INTO message (author_id, text, pub_date)
+          VALUES (?, ?, ?)''', (user_id, message_text,
                                 int(time.time())))
     db.commit()
 
@@ -224,7 +224,7 @@ def api_home_timeline():
 
 
 # show the public timeline for everyone
-@app.route('/api/statuses/public_timeline', methods=['GET','DELETE'])
+@app.route('/api/statuses/public_timeline', methods=['GET', 'DELETE'])
 def api_public_timeline():
     messages = query_public_timeline()
     my_values = []
@@ -303,7 +303,8 @@ def api_login():
             error = 'Invalid password'
         else:
             session['user_id'] = user['user_id']
-            return Response(json.dumps({'username': my_args['username'], 'status': 'loginSuccessful'}), 200, mimetype='application/json')
+            return Response(json.dumps({'username': my_args['username'], 'status': 'loginSuccessful'}), 200,
+                            mimetype='application/json')
     return Response(json.dumps({'status': 'loginFailure', 'error': error}), 401, mimetype='application/json')
 
 
@@ -349,7 +350,8 @@ def user_timeline(username):
     followed = False
     if g.user:
         followed = query_followed(session['user_id'], profile_user['user_id'])
-    return render_template('timeline.html', messages=query_messages(profile_user['user_id']), followed=followed, profile_user=profile_user)
+    return render_template('timeline.html', messages=query_messages(profile_user['user_id']), followed=followed,
+                           profile_user=profile_user)
 
 
 @app.route('/<username>/follow')
@@ -419,7 +421,7 @@ def register():
         if not request.form['username']:
             error = 'You have to enter a username'
         elif not request.form['email'] or \
-                '@' not in request.form['email']:
+                        '@' not in request.form['email']:
             error = 'You have to enter a valid email address'
         elif not request.form['password']:
             error = 'You have to enter a password'
@@ -429,10 +431,10 @@ def register():
             error = 'The username is already taken'
         else:
             db = get_db()
-            db.execute('''insert into user (
-              username, email, pw_hash) values (?, ?, ?)''',
-              [request.form['username'], request.form['email'],
-               generate_password_hash(request.form['password'])])
+            db.execute('''INSERT INTO user (
+              username, email, pw_hash) VALUES (?, ?, ?)''',
+                       [request.form['username'], request.form['email'],
+                        generate_password_hash(request.form['password'])])
             db.commit()
             flash('You were successfully registered and can login now')
             return redirect(url_for('login'))
