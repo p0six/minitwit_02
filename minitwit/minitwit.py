@@ -17,6 +17,17 @@ from flask import Flask, request, session, url_for, redirect, \
     render_template, abort, g, flash, _app_ctx_stack, json, jsonify, Response
 from werkzeug import check_password_hash, generate_password_hash
 from flask_sessionstore import Session
+from flask_basicauth import BasicAuth
+
+
+class ApiBasicAuth(BasicAuth):
+    def check_credentials(self, username, password):
+        user = query_login(username)
+        if check_password_hash(user['pw_hash'], password):
+            return True
+        else:
+            return False
+
 
 # configuration
 DATABASE = '/tmp/minitwit.db'
@@ -29,6 +40,7 @@ app = Flask('minitwit')
 app.config.from_object(__name__)
 app.config.from_envvar('MINITWIT_SETTINGS', silent=True)
 Session(app)
+api_basic_auth = ApiBasicAuth(app)
 
 
 def get_db():
@@ -40,6 +52,7 @@ def get_db():
         top.sqlite_db = sqlite3.connect(app.config['DATABASE'])
         top.sqlite_db.row_factory = sqlite3.Row
     return top.sqlite_db
+
 
 
 @app.teardown_appcontext
@@ -299,7 +312,8 @@ def api_login():
         user = query_login(my_args['username'])
         if user is None:
             error = 'Invalid username'
-        elif not check_password_hash(user['pw_hash'], my_args["password"]):
+        #elif not check_password_hash(user['pw_hash'], my_args["password"]):
+        elif not api_basic_auth.check_credentials(my_args["username"], my_args["password"]):
             error = 'Invalid password'
         else:
             session['user_id'] = user['user_id']
