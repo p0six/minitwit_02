@@ -38,10 +38,14 @@ SECRET_KEY = b'_5#y2L"F4Q8z\n\xec]/'
 # create our little application :)
 app = Flask('minitwit')
 app.config.from_object(__name__)
-app.config.from_envvar('MINITWIT_SETTINGS', silent=True)
-Session(app)
+# No longer needed to have unique settings after Session DB reconfig
+#app.config.from_envvar('MINITWIT_SETTINGS', silent=True)
+# Session DB config..
+app.config['SESSION_TYPE'] = 'sqlalchemy'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////tmp/minitwit.db'
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = 'True'
+session_app = Session(app)
 api_basic_auth = ApiBasicAuth(app)
-
 
 def get_db():
     """Opens a new database connection if there is none yet for the
@@ -52,7 +56,6 @@ def get_db():
         top.sqlite_db = sqlite3.connect(app.config['DATABASE'])
         top.sqlite_db.row_factory = sqlite3.Row
     return top.sqlite_db
-
 
 
 @app.teardown_appcontext
@@ -69,6 +72,8 @@ def init_db():
     with app.open_resource('schema.sql', mode='r') as f:
         db.cursor().executescript(f.read())
     db.commit()
+    # Added for Session DB
+    session_app.app.session_interface.db.create_all()
 
 
 @app.cli.command('initdb')
@@ -312,7 +317,7 @@ def api_login():
         user = query_login(my_args['username'])
         if user is None:
             error = 'Invalid username'
-        #elif not check_password_hash(user['pw_hash'], my_args["password"]):
+        # elif not check_password_hash(user['pw_hash'], my_args["password"]):
         elif not api_basic_auth.check_credentials(my_args["username"], my_args["password"]):
             error = 'Invalid password'
         else:
